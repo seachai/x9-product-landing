@@ -1,4 +1,4 @@
 # x9-product-landing
 X9 Product Landing Page
 
-https://imgur.com/a/KZZQfJ6
+[Screenshot](https://i.imgur.com/JcrLq60.png)
