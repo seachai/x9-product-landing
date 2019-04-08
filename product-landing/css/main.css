@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import './normalize.css';
+@import './header.css';
+@import './top-jumbo.css';
+@import './design-by.css';
+
+/*
+
+FEA83B - orange
+6066F2 - light blue
+B286F8 - purple
+4C44C1 - blue
+E6CDF9 - light purple
+
+*/
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    /* height: 100vh; */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0 5%;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    /* outline: 1px solid #fff;
+    outline-offset: -4px; */
+    outline: none;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.box-shadow-default {
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.35);
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.35);
+}

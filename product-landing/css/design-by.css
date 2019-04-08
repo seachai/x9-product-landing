@@ -1,0 +1,39 @@
+#design-by {
+    position: relative;
+    top: -100px;
+    width: 103%;
+}
+
+#design-by .design-container {
+    /* position: absolute; */
+
+}
+
+#design-by .design-container .info-section {
+    background: #6066F2;
+    width: 40%;
+    display: inline-block;
+}
+
+#design-by .design-container .info-section h5{
+    color: #FEA83B;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+#design-by .design-container .info-section h3{
+    color: #FFF;
+    font-size: 2rem;
+}
+
+#design-by .design-container .icons-section {
+    background: #fff;
+    width: 60%;
+    float: right;
+}
+
+#design-by .design-container .icons-section{
+    background: #fff;
+    width: 60%;
+    float: right;
+}
