@@ -82,14 +82,60 @@
 
 #design-by .design-container .icons-section {
     background: #fff;
-    width: 50%;
+    width: 55%;
+    height: 100%;
     display: inline-block;
-    float: left;
+    position: relative;
 }
 
+
+#design-by .design-container .icons-section .refresh-circle {
+    position: absolute;
+    background: #fff;
+    left: 43%;
+    top: 40%;
+    height: 80px;
+    height: 80px;
+    background: #FFF;
+    padding: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.1);
+}
+
+#design-by .design-container .icons-section .refresh-circle .fas {
+    position: inherit;
+    top: 30%;
+    left: 30%;
+    font-size: 2.5rem;
+    color: #FEA83B;
+}
 #design-by .design-container .icons-section .icon-box {
-    width: 50%;
-    height: 226px;
-    display: inline-block;
-    float: left;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#design-by .design-container .icons-section .icon-box .title {
+    text-align: center;
+    color: #6066F2;
+    border: 1px solid #F4F5F7;
+    grid-gap: 5px;
+    padding: 44px 116px 44px 116px;
+}
+
+#design-by .design-container .icons-section .icon-box .title h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#design-by .design-container .icons-section .icon-box .title .fas,
+#design-by .design-container .icons-section .icon-box .title .fab {
+    font-size: 3rem;
+    color:#6066F2;
 }
