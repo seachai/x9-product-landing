@@ -16,6 +16,12 @@
     width: 100%;
 }
 
+#design-by .design-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #design-by .design-container .bg-container .bg-image {
     position: absolute;
     opacity: .1;
