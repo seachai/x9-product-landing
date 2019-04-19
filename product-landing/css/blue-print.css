@@ -19,13 +19,11 @@
 
 #blue-print .left-side img {
     width: 100%;
-    height: auto;
 }
 
 #blue-print .right-side {
     width: 40%;
-    display: flex;
-    flex-wrap: wrap;
+    float: left;
 }
 
 #blue-print .right-side h1 {
@@ -39,11 +37,12 @@
 #blue-print .right-side .info-box .column-1 {
     width: 50%;
     display: inline-block;
+    float: left;
 }
 
 #blue-print .right-side .info-box .column-1 .icon-container {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 2px solid #fff;
 }
@@ -51,7 +50,7 @@
 
 #blue-print .right-side .info-box .column-2 {
     width: 50%;
-    float: right;
+    float: left;
 }
 
 #blue-print .right-side .info-box .column-2:after {

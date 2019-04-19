@@ -44,22 +44,26 @@
     margin-right: 20px;
 }
 
-#color-collection .right-side .swatch-area .circle:nth-child(1) {
-    background: #8E2DE2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#color-collection .right-side .swatch-area .circle:hover {
+    cursor: pointer;
 }
 
-#color-collection .right-side .swatch-area .circle:nth-child(2) {
-    background: #654ea3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#color-collection .right-side .swatch-area .circle-blue {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
 }
 
-#color-collection .right-side .swatch-area .circle:nth-child(3) {
-    background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#color-collection .right-side .swatch-area .circle-pink {
+    background: #654ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+}
+
+#color-collection .right-side .swatch-area .circle-black {
+    background: #485563;
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    background: linear-gradient(to right, #29323c, #485563);
     margin-right: 0;
 }
 
@@ -126,9 +130,10 @@
     height: 435px;
     margin-top: 5px;
     border-radius: 40px;
-    background: #355C7D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8E2DE2;
+    background: #355C7D;
+    background: -webkit-linear-gradient(to top, #C06C84, #6C5B7B, #355C7D);
+    background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);
 }
 
 #color-collection .right-side .color-slider .picker {

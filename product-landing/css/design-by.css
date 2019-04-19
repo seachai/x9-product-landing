@@ -84,6 +84,12 @@
     padding: 20px 60px;
     color: #6066F2;
     display: inline-block;
+    transition: all .3s ease-in-out;
+}
+
+#design-by .design-container .info-section .white-btn:hover {
+    background: #FEA83B;
+    color: #FFF;
 }
 
 #design-by .design-container .icons-section {

@@ -35,6 +35,11 @@ header .header-buttons .blue-btn {
     color: #fff;
     border-radius: 35px;
     text-transform: uppercase;
+    transition: all ease-in-out .2s;
+}
+
+header .header-buttons .blue-btn:hover {
+    background: #4C44C1;
 }
 
 header .header-buttons .blue-btn .fas {
@@ -42,10 +47,15 @@ header .header-buttons .blue-btn .fas {
     font-size: 18px;
 }
 
-header .header-buttons .orange-btn{
+header .header-buttons .orange-btn {
     background: #FEA83B;
     padding: 12px 60px;
     color: #fff;
     border-radius: 35px;
     text-transform: uppercase;
+    transition: all ease-in-out .2s;
+}
+
+header .header-buttons .orange-btn:hover {
+    background: #f29a2b;
 }
