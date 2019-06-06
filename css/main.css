@@ -30,7 +30,7 @@ html, body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 65%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0;
 }

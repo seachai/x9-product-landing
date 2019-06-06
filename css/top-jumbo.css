@@ -75,7 +75,8 @@
 
 #top-jumbo .right-side img {
     margin-left: 20px;
-    width: 51.35rem;
-    height: auto;
+    /* width: 51.35rem; */
+    width: 750px;
+    height: 100%;
     box-shadow: 0 8px 6px -6px #333;
 }
