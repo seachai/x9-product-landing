@@ -3,4 +3,4 @@ X9 Product Landing Page
 
 [Screenshot](https://i.imgur.com/JcrLq60.png)
 
-[View live site](https://codepen.io/SkyintheSea/pen/axBybY)
+[View live site](https://pedantic-blackwell-c886c4.netlify.com/)
